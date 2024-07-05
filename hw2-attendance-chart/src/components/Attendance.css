@@ -1,0 +1,33 @@
+.table {
+	margin: 10px 0;
+	display: table;
+	width: 70%;
+	border-collapse: collapse;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+	border: 1px solid white;
+	padding: 5px;
+	text-align: center;
+}
+
+.number {
+	width: 30px;
+}
+
+.date {
+	width: 50px;
+}
+
+.name {
+	width: 100px;
+}
+
+.header .cell {
+	font-weight: bold;
+}
