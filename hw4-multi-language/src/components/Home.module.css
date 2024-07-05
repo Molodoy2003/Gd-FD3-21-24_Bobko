@@ -1,0 +1,33 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.title {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.header {
+	font-size: 35px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.paragraph {
+	font-size: 19px;
+	margin: 5px 0;
+	color: #fff;
+}
+
+.select {
+	margin-left: 20px;
+	background-color: #5e2d86;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	font-size: 1em;
+	margin-top: 20px;
+}
