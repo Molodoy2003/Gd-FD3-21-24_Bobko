@@ -1,0 +1,55 @@
+.container {
+  padding: 20px;
+}
+
+.backLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.photoImage {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.albumInfo {
+  margin-top: 20px;
+}
+
+.authorLink,
+.albumLink {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin-top: 10px;
+}
+
+.userInfo {
+  margin-top: 20px;
+}
+
+.randomPhotosContainer {
+  margin-top: 20px;
+}
+
+.photosGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photoCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.photoCard img {
+  width: 100%;
+  border-radius: 8px;
+}

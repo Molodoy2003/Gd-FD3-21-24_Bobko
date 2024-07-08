@@ -1,0 +1,43 @@
+.container {
+  padding: 20px;
+}
+
+.backLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.authorLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.photosContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photoCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.photoTitle {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.photoImage {
+  width: 100%;
+  border-radius: 8px;
+}

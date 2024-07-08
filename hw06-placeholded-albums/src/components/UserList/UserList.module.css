@@ -1,0 +1,15 @@
+.container {
+  padding: '20px';
+}
+.list {
+  list-style: none;
+  padding-left: 100px;
+}
+.listItem {
+  margin-bottom: '10px';
+}
+.link {
+  text-decoration: 'none';
+  color: #fff;
+  font-size: 22px;
+}
