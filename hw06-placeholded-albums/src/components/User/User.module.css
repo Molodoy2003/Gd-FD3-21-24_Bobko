@@ -1,0 +1,41 @@
+.container {
+  padding: 20px;
+}
+
+.container p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.backLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.albumsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.albumCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.photoTitle {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.albumImage {
+  width: 100%;
+  border-radius: 8px;
+}
