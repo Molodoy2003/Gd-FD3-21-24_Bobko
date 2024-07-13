@@ -11,9 +11,6 @@ const NoteList: FC<NoteListProps> = ({ filteredNotes, search }) => {
   return (
     <div>
       <div className='note-list'>
-        {search.trim() === '' && (
-          <h2 style={{ marginTop: '30px', color: 'orange' }}>No notes</h2>
-        )}
         {search.trim() !== '' && filteredNotes.length === 0 && (
           <h2 style={{ marginTop: '30px', color: 'orange' }}>
             There are no notes with this title
